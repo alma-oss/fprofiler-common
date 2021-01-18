@@ -2,6 +2,8 @@
 
 <!-- There is always Unreleased section on the top. Subsections (Add, Changed, Fix, Removed) should be Add as needed. -->
 ## Unreleased
+
+## 1.1.1 - 2021-01-18
 - Fix to include a `src/*.fs` files to `/fable`
 
 ## 1.1.0 - 2021-01-18
