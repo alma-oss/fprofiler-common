@@ -2,6 +2,7 @@
 
 <!-- There is always Unreleased section on the top. Subsections (Add, Changed, Fix, Removed) should be Add as needed. -->
 ## Unreleased
+- Fix to include a `src/*.fs` files to `/fable`
 
 ## 1.1.0 - 2021-01-18
 - Include `fs` and `fsproj` files into a `/fable` dir, so it can be used as a `fable` library
