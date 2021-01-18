@@ -14,12 +14,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Compile Include="src/Profiler.Common.fs" />
+        <Compile Include="Profiler.Common.fs" />
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="*.fsproj; *.fs; src/*.fs;" PackagePath="fable\" />
+        <Content Include="*.fsproj; *.fs;" PackagePath="fable\" />
     </ItemGroup>
 
-    <Import Project=".paket\Paket.Restore.targets" />
+    <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
