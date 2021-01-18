@@ -33,6 +33,7 @@ type ToolDir =
 
 let project = "Lmc.Profiler.Common"
 let summary = "Library for common profiler types, shared between client and server."
+let fableLibDir = "Fable.Profiler.Common"
 
 let release = ReleaseNotes.parse (System.IO.File.ReadAllLines "CHANGELOG.md" |> Seq.filter ((<>) "## Unreleased"))
 let gitCommit = Information.getCurrentSHA1(".")
@@ -199,7 +200,7 @@ Target.create "Tests" (fun _ ->
 )
 
 Target.create "Release" (fun _ ->
-    DotnetCore.runOrFail "pack" ("src" </> project)
+    DotnetCore.runOrFail "pack" ("src" </> fableLibDir)
 
     Directory.ensure "release"
 
