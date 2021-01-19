@@ -14,7 +14,7 @@ type ToolDir =
     | Local of string
 
 // ========================================================================================================
-// === F# / Fable Library fake build ============================================================== 1.1.0 =
+// === F# / Fable Library fake build ============================================================== 1.2.0 =
 // --------------------------------------------------------------------------------------------------------
 // Options:
 //  - no-clean   - disables clean of dirs in the first step (required on CI)
@@ -31,9 +31,8 @@ type ToolDir =
 // 1. Information about the project to be used at NuGet and in AssemblyInfo files and other FAKE configuration
 // --------------------------------------------------------------------------------------------------------
 
-let project = "Lmc.Profiler.Common"
+let project = "Lmc.Fable.Profiler.Common"
 let summary = "Library for common profiler types, shared between client and server."
-let fableLibDir = "Fable.Profiler.Common"
 
 let release = ReleaseNotes.parse (System.IO.File.ReadAllLines "CHANGELOG.md" |> Seq.filter ((<>) "## Unreleased"))
 let gitCommit = Information.getCurrentSHA1(".")
@@ -200,7 +199,7 @@ Target.create "Tests" (fun _ ->
 )
 
 Target.create "Release" (fun _ ->
-    DotnetCore.runOrFail "pack" ("src" </> fableLibDir)
+    DotnetCore.runOrFail "pack" ("src" </> project)
 
     Directory.ensure "release"
 
