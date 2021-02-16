@@ -5,7 +5,23 @@ module Profiler =
     type Token = Token of string
 
     type Id = Id of string
-    type Label = Label of string
+
+    [<CustomEquality; NoComparison>]
+    type Label =
+        | Label of string
+
+        member private this.Value() =
+            let (Label label) = this
+            label.Trim().ToLower()
+
+        override this.GetHashCode() =
+            this.Value() |> hash
+
+        override labelA.Equals (b) =
+            match b with
+            | :? Label as labelB -> labelA.Value() = labelB.Value()
+            | _ -> false
+
     type Value = Value of string
     type ValueDetail = ValueDetail of string
     type Unit = Unit of string
