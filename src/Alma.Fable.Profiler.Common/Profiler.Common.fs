@@ -1,4 +1,4 @@
-namespace Lmc.Profiler.Common
+namespace Alma.Profiler.Common
 
 [<RequireQualifiedAccess>]
 module Profiler =

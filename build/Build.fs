@@ -1,5 +1,5 @@
 // ========================================================================================================
-// === F# / Project fake build ==================================================================== 1.0.0 =
+// === F# / Project fake build ==================================================================== 1.1.0 =
 // --------------------------------------------------------------------------------------------------------
 // Options:
 //  - no-clean   - disables clean of dirs in the first step (required on CI)
@@ -19,7 +19,7 @@ let main args =
 
     Targets.init {
         Project = {
-            Name = "Lmc.Fable.Profiler.Common"
+            Name = "Alma.Fable.Profiler.Common"
             Summary = "Library for common profiler types, shared between client and server."
             Git = Git.init ()
         }
