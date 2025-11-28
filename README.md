@@ -1,24 +1,15 @@
 F-Profiler Common
 =================
 
+[![NuGet](https://img.shields.io/nuget/v/Alma.Profiler.Common.svg)](https://www.nuget.org/packages/Alma.Profiler.Common)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Alma.Profiler.Common.svg)](https://www.nuget.org/packages/Alma.Profiler.Common)
+[![Tests](https://github.com/alma-oss/fprofiler-common/actions/workflows/tests.yaml/badge.svg)](https://github.com/alma-oss/fprofiler-common/actions/workflows/tests.yaml)
+
 > Library for common profiler types, shared between client and server.
 
 ---
 
 ## Install
-
-Add following into `paket.dependencies`
-```
-source https://nuget.pkg.github.com/almacareer/index.json username: "%PRIVATE_FEED_USER%" password: "%PRIVATE_FEED_PASS%"
-# LMC Nuget dependencies:
-nuget Alma.Profiler.Common
-```
-
-NOTE: For local development, you have to create ENV variables with your github personal access token.
-```sh
-export PRIVATE_FEED_USER='{GITHUB USERNANME}'
-export PRIVATE_FEED_PASS='{TOKEN}'	# with permissions: read:packages
-```
 
 Add following into `paket.references`
 ```
