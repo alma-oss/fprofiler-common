@@ -1,0 +1,113 @@
+lockfile_version: '1'
+dependencies: []
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fprofiler-common
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fprofiler-common/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f0bbbcce02abc9ab0651feddfd491a42b0e90b8090b639bc3ac53c1db566ee00
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fprofiler-common/references/anti-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:0cb78913e12f9d1319d8baa83b69d632209e6264529a995030cabaf6ebde4b55
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fprofiler-common/references/examples.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1e2b5178615e3caa73a1ebd9d7fefb07b7bbd991791fb82ddd97d992671e644c
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fprofiler-common/references/preferred-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c8495f2b01d3f0b916972440da83ef12f2a274d656ad640d38579551b868e49e
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fprofiler-common
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fprofiler-common/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f0bbbcce02abc9ab0651feddfd491a42b0e90b8090b639bc3ac53c1db566ee00
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fprofiler-common/references/anti-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:0cb78913e12f9d1319d8baa83b69d632209e6264529a995030cabaf6ebde4b55
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fprofiler-common/references/examples.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1e2b5178615e3caa73a1ebd9d7fefb07b7bbd991791fb82ddd97d992671e644c
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fprofiler-common/references/preferred-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c8495f2b01d3f0b916972440da83ef12f2a274d656ad640d38579551b868e49e
+local_deployed_files:
+- .agents/skills/fprofiler-common
+- .agents/skills/fprofiler-common/SKILL.md
+- .agents/skills/fprofiler-common/references/anti-patterns.md
+- .agents/skills/fprofiler-common/references/examples.md
+- .agents/skills/fprofiler-common/references/preferred-patterns.md
+- .claude/skills/fprofiler-common
+- .claude/skills/fprofiler-common/SKILL.md
+- .claude/skills/fprofiler-common/references/anti-patterns.md
+- .claude/skills/fprofiler-common/references/examples.md
+- .claude/skills/fprofiler-common/references/preferred-patterns.md
+local_deployed_file_hashes:
+  .agents/skills/fprofiler-common/SKILL.md: sha256:f0bbbcce02abc9ab0651feddfd491a42b0e90b8090b639bc3ac53c1db566ee00
+  .agents/skills/fprofiler-common/references/anti-patterns.md: sha256:0cb78913e12f9d1319d8baa83b69d632209e6264529a995030cabaf6ebde4b55
+  .agents/skills/fprofiler-common/references/examples.md: sha256:1e2b5178615e3caa73a1ebd9d7fefb07b7bbd991791fb82ddd97d992671e644c
+  .agents/skills/fprofiler-common/references/preferred-patterns.md: sha256:c8495f2b01d3f0b916972440da83ef12f2a274d656ad640d38579551b868e49e
+  .claude/skills/fprofiler-common/SKILL.md: sha256:f0bbbcce02abc9ab0651feddfd491a42b0e90b8090b639bc3ac53c1db566ee00
+  .claude/skills/fprofiler-common/references/anti-patterns.md: sha256:0cb78913e12f9d1319d8baa83b69d632209e6264529a995030cabaf6ebde4b55
+  .claude/skills/fprofiler-common/references/examples.md: sha256:1e2b5178615e3caa73a1ebd9d7fefb07b7bbd991791fb82ddd97d992671e644c
+  .claude/skills/fprofiler-common/references/preferred-patterns.md: sha256:c8495f2b01d3f0b916972440da83ef12f2a274d656ad640d38579551b868e49e
