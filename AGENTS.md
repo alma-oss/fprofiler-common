@@ -1,5 +1,9 @@
 # AGENTS.md — Alma.Profiler.Common
 
+## Agent Skills
+
+This repo ships Agent Skills for shared OSS libraries under `.agents/skills/` (compatible agents discover them automatically); see `.agents/skills/fprofiler-common/SKILL.md`. Global skills may also live in `~/.agents/skills/`.
+
 ## Project Purpose
 
 F# library containing common profiler types shared between client and server applications. Provides the shared type definitions used by profiler client and server implementations. Also Fable-compatible. Published as NuGet package `Alma.Profiler.Common`.
